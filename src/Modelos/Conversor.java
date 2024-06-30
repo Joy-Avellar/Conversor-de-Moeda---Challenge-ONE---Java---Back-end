@@ -10,7 +10,7 @@ import java.security.PrivateKey;
 
 public class Conversor {
 
-    private final String myKey = "DIGITE AQUI A SUA API KEY";
+    private final String myKey = "833761342f4c14fc0b90e941";
     private Double valor;
 
 
