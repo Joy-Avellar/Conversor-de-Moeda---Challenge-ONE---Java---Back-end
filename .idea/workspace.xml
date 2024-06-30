@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb5064d-050d-4de8-a6f1-e7d6baa22907" name="Changes" comment="atualização final 1">
-      <change afterPath="$PROJECT_DIR$/src/Modelos/GeradorDeArquivo.java" afterDir="false" />
+    <list default="true" id="6fb5064d-050d-4de8-a6f1-e7d6baa22907" name="Changes" comment="API Key removida">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +99,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719780718544</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="atualização final 1">
+      <option name="closed" value="true" />
+      <created>1719785268376</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719785268376</updated>
+    </task>
+    <task id="LOCAL-00005" summary="API Key removida">
+      <option name="closed" value="true" />
+      <created>1719785501685</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719785501685</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="atualização final 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="atualização final 1" />
+    <MESSAGE value="API Key removida" />
+    <option name="LAST_COMMIT_MESSAGE" value="API Key removida" />
   </component>
 </project>
