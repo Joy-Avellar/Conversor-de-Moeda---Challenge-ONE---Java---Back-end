@@ -18,7 +18,7 @@
 
 ###
 
-<p align="left">Converte valores entre diversas combinações de moedas:<br><br>Peso Argentino (ARS) para Dólar Americano (USD) e Real (BRL)<br>Peso Chileno (CLP) para Dólar Americano (USD) e Real (BRL)<br>Real (BRL) para Dólar Americano (USD) e Peso Chileno (CLP)<br>Peso Colombiano (COP) para Dólar Americano (USD)<br>Boliviano (BOB) para Dólar Americano (USD)<br>Dólar Americano (USD) para Real (BRL)<br><br>Exibe informações detalhadas sobre a conversão, incluindo a moeda base, a moeda final, a taxa de conversão e o valor convertido.<br><br>Permite que o usuário continue fazendo conversões até que escolha sair.</p>
+<p align="left">Converte valores entre diversas combinações de moedas:<br><br>Peso Argentino (ARS) para Dólar Americano (USD) e Real (BRL)<br>Peso Chileno (CLP) para Dólar Americano (USD) e Real (BRL)<br>Real (BRL) para Dólar Americano (USD) e Peso Chileno (CLP)<br>Peso Colombiano (COP) para Dólar Americano (USD)<br>Boliviano (BOB) para Dólar Americano (USD)<br>Dólar Americano (USD) para Real (BRL)<br><br>Exibe informações detalhadas sobre a conversão, incluindo a moeda base, a moeda final, a taxa de conversão e o valor convertido.<br><br>Permite que o usuário continue fazendo conversões até que escolha sair.</p><p>Gera uma Lista com as conversões realizadas e salva em Json</p>
 
 ###
 
