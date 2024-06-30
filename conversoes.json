@@ -1,0 +1,23 @@
+[
+  {
+    "base_code": "BRL",
+    "target_code": "USD",
+    "conversion_rate": 0.1817,
+    "conversion_result": 0.9085,
+    "time_last_update_utc": "Sun, 30 Jun 2024 00:00:01 +0000"
+  },
+  {
+    "base_code": "BOB",
+    "target_code": "USD",
+    "conversion_rate": 0.1444,
+    "conversion_result": 1.2996,
+    "time_last_update_utc": "Sun, 30 Jun 2024 00:00:01 +0000"
+  },
+  {
+    "base_code": "COP",
+    "target_code": "USD",
+    "conversion_rate": 2.4235E-4,
+    "conversion_result": 0.0019388,
+    "time_last_update_utc": "Sun, 30 Jun 2024 00:00:01 +0000"
+  }
+]

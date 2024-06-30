@@ -1,8 +1,13 @@
 package Principal;
 
 import Modelos.Conversor;
+import Modelos.GeradorDeArquivo;
 import Modelos.Menu;
 import Modelos.Moedas;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Principal {
     public static void main(String[] args) {
@@ -11,6 +16,8 @@ public class Principal {
         menuPrincipal.exibirMenu();
 
         int opcao = menuPrincipal.lerOpcao();
+
+        List<Moedas> conversoes = new ArrayList<>();
 
 
         while (opcao != 10) {
@@ -63,6 +70,8 @@ public class Principal {
                 System.out.println("Taxa de conversão: " + resultado.conversion_rate());
                 System.out.println("Valor convertido: " + resultado.conversion_result());
 
+                conversoes.add(resultado);
+
                 System.out.println("""
                                     ================================================================
                                     Deseja continuar? Selecione outra opção do Menu ou 10 para Sair.
@@ -75,6 +84,15 @@ public class Principal {
             }
 
         }
+
+        try {
+            GeradorDeArquivo geradorDeArquivo = new GeradorDeArquivo();
+            geradorDeArquivo.geraJson(conversoes, "conversoes.json");
+        } catch (IOException e) {
+            System.err.println("Erro ao salvar conversões: " + e.getMessage());
+        }
+
+
         if (opcao == 10) {
             System.out.println(""" 
                                     ****************************************
